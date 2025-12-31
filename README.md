@@ -1,73 +1,108 @@
-# React + TypeScript + Vite
+# Wellness Cart — E-commerce User Flow 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React + TypeScript project that demonstrates real-world e-commerce user flows such as product browsing, cart and checkout experience and user dashboard.  
+Built with a focus on clean UI architecture, reusable components, and scalable state management.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo: [Try it on Vercel](https://buildwithrani-react-ecommerce-ui.vercel.app)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ⚙️ Tech Stack
 
-## Expanding the ESLint configuration
+- ⚛️ [**React.js (Vite)**](https://vitejs.dev/) – modern frontend build tool for fast development  
+- 🎨 [**Tailwind CSS**](https://tailwindcss.com/) – utility-first CSS framework for responsive styling  
+- 🔷 [**TypeScript**](https://www.typescriptlang.org/) – ensures type safety and clean component design
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 📸 Screenshots
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+### 🖥️ Desktop View
+![Navbar](https://github.com/rangari-rani/wellness-cart-ui/blob/1fe8a40e6c955de4baf8a95081f4b770974ab016/public/navbar.png)
+_Navbar_
+![Product List](https://github.com/rangari-rani/wellness-cart-ui/blob/1fe8a40e6c955de4baf8a95081f4b770974ab016/public/product-list-desktop.png)
+_Product List Page_
+![Cart Page](https://github.com/rangari-rani/wellness-cart-ui/blob/5b15a1391a4675d8244aa0fd8e7f3f95c4330f1b/public/cart.png)
+_Cart Page_
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### 📱 Mobile Views
+<p align="center">
+  <img src="https://github.com/rangari-rani/wellness-cart-ui/blob/5b15a1391a4675d8244aa0fd8e7f3f95c4330f1b/public/navbar-mobile.png" alt="Mobile navbar" width="22%">
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://github.com/rangari-rani/wellness-cart-ui/blob/5b15a1391a4675d8244aa0fd8e7f3f95c4330f1b/public/product-list-mobile.png" alt="Mobile product list" width="22%">
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://github.com/rangari-rani/wellness-cart-ui/blob/5b15a1391a4675d8244aa0fd8e7f3f95c4330f1b/public/cart-mobile.png" alt="Mobile cart page" width="22%">
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://github.com/rangari-rani/wellness-cart-ui/blob/5b15a1391a4675d8244aa0fd8e7f3f95c4330f1b/public/order-mobile.png" alt="Mobile order list" width="22%">
+</p>
+
+_Mobile responsive design screenshots_
+
+---
+
+## ✨ Features
+
+- Authentication flow with login and signup pages
+- Responsive navbar with mega menu navigation
+- Product browsing with filters and sorting
+- Product detail view with gallery and recommendations
+- Cart management with quantity updates and removal
+- Wishlist and user account sections
+- Multi-step checkout flow (cart → address → payment)
+- User dashboard with profile, orders, and account sections
+- Responsive layout for desktop and mobile
+
+---
+
+## 📁 Project Structure
+
+```tsx
+src/
+├─ components/      # Feature-based UI components  
+├─ pages/           # Route-level pages
+├─ data/            # Static product & category data
+├─ utils/           # Shared utilities
+└─ assets/          # Static assets
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🔧 Setup Instructions
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/rangari-rani/buildwithrani-react-ecommerce-module.git
 ```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Start the development server
+
+```bash
+npm run dev
+```
+> App runs at:
+🌐 http://localhost:5173
+
+---
+
+## ✨ Part of BuildWithRani
+
+This project is part of the **BuildWithRani** learning series.
+
+📖 Implementation details:  [buildwithrani.com](https://buildwithrani.com)
+
+---
+
+## 📬 Contact
+
+Connect with me on **[LinkedIn – Rani Rangari](https://linkedin.com/in/rani-rangari)**  
+
+⭐ If you found this project helpful, consider giving it a star!
