@@ -20,22 +20,22 @@ Built with a focus on clean UI architecture, reusable components, and scalable s
 ## 📸 Screenshots
 
 ### 🖥️ Desktop View
-![Navbar](https://github.com/rangari-rani/wellness-cart-ui/blob/1fe8a40e6c955de4baf8a95081f4b770974ab016/public/navbar.png)
+![Navbar](https://github.com/rangari-rani/buildwithrani-react-ecommerce-module/blob/dc88725651d1e01cb45112121a989d37c78b7235/public/navbar.png)
 _Navbar_
-![Product List](https://github.com/rangari-rani/wellness-cart-ui/blob/1fe8a40e6c955de4baf8a95081f4b770974ab016/public/product-list-desktop.png)
+![Product List](https://github.com/rangari-rani/buildwithrani-react-ecommerce-module/blob/dc88725651d1e01cb45112121a989d37c78b7235/public/product-list-desktop.png)
 _Product List Page_
-![Cart Page](https://github.com/rangari-rani/wellness-cart-ui/blob/5b15a1391a4675d8244aa0fd8e7f3f95c4330f1b/public/cart.png)
+![Cart Page](https://github.com/rangari-rani/buildwithrani-react-ecommerce-module/blob/dc88725651d1e01cb45112121a989d37c78b7235/public/cart.png)
 _Cart Page_
 
 ### 📱 Mobile Views
 <p align="center">
-  <img src="https://github.com/rangari-rani/wellness-cart-ui/blob/5b15a1391a4675d8244aa0fd8e7f3f95c4330f1b/public/navbar-mobile.png" alt="Mobile navbar" width="22%">
+  <img src="https://github.com/rangari-rani/buildwithrani-react-ecommerce-module/blob/dc88725651d1e01cb45112121a989d37c78b7235/public/navbar-mobile.png" alt="Mobile navbar" width="22%">
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://github.com/rangari-rani/wellness-cart-ui/blob/5b15a1391a4675d8244aa0fd8e7f3f95c4330f1b/public/product-list-mobile.png" alt="Mobile product list" width="22%">
+  <img src="https://github.com/rangari-rani/buildwithrani-react-ecommerce-module/blob/dc88725651d1e01cb45112121a989d37c78b7235/public/product-list-mobile.png" alt="Mobile product list" width="22%">
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://github.com/rangari-rani/wellness-cart-ui/blob/5b15a1391a4675d8244aa0fd8e7f3f95c4330f1b/public/cart-mobile.png" alt="Mobile cart page" width="22%">
+  <img src="https://github.com/rangari-rani/buildwithrani-react-ecommerce-module/blob/dc88725651d1e01cb45112121a989d37c78b7235/public/cart-mobile.png" alt="Mobile cart page" width="22%">
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://github.com/rangari-rani/wellness-cart-ui/blob/5b15a1391a4675d8244aa0fd8e7f3f95c4330f1b/public/order-mobile.png" alt="Mobile order list" width="22%">
+  <img src="https://github.com/rangari-rani/buildwithrani-react-ecommerce-module/blob/dc88725651d1e01cb45112121a989d37c78b7235/public/order-mobile.png" alt="Mobile order list" width="22%">
 </p>
 
 _Mobile responsive design screenshots_
