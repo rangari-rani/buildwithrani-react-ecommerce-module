@@ -5,7 +5,7 @@ Built with a focus on clean UI architecture, reusable components, and scalable s
 
 ---
 
-## 🚀 Live Demo: [Try it on Vercel](https://buildwithrani-react-ecommerce-ui.vercel.app)
+## 🚀 Live Demo: [Try it on Vercel](https://buildwithrani-react-ecommerce-module.vercel.app)
 
 ---
 
