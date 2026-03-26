@@ -104,5 +104,3 @@ This project is part of the **BuildWithRani** learning series.
 ## 📬 Contact
 
 Connect with me on **[LinkedIn – Rani Rangari](https://linkedin.com/in/rani-rangari)**  
-
-⭐ If you found this project helpful, consider giving it a star!
