@@ -1,7 +1,6 @@
 # Wellness Cart — E-commerce User Flow 
 
 A React + TypeScript project that demonstrates e-commerce user flows such as product browsing, cart and checkout experience and user dashboard.  
-Built with a focus on clean UI architecture, reusable components, and scalable state management.
 
 ---
 
